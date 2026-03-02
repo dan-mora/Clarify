@@ -1,0 +1,202 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f7f9fc;
+    color: #1a1a2e;
+    height: 100dvh;
+    overflow: hidden;
+}
+
+/* Screen toggling */
+.screen {
+    display: none;
+    height: 100dvh;
+}
+.screen.active {
+    display: flex;
+}
+
+/* Landing screen */
+#landing-screen {
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-container {
+    text-align: center;
+    max-width: 480px;
+    padding: 2rem;
+}
+
+.landing-container h1 {
+    font-size: 2rem;
+    color: #0055b3;
+    margin-bottom: 1rem;
+}
+
+.landing-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+.landing-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Buttons */
+.btn {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: background 0.2s;
+}
+
+.btn-primary {
+    background: #0055b3;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+}
+.btn-primary:hover {
+    background: #003d82;
+}
+
+.btn-secondary {
+    background: #e8edf3;
+    color: #1a1a2e;
+    padding: 0.75rem 1.5rem;
+}
+.btn-secondary:hover {
+    background: #d0d7e2;
+}
+
+.btn-small {
+    background: transparent;
+    color: #0055b3;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    border: 1px solid #0055b3;
+    border-radius: 6px;
+}
+.btn-small:hover {
+    background: #0055b3;
+    color: #fff;
+}
+
+/* Chat screen layout */
+#chat-screen {
+    flex-direction: column;
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1.25rem;
+    background: #fff;
+    border-bottom: 1px solid #e0e4ea;
+}
+
+.chat-header h1 {
+    font-size: 1.2rem;
+    color: #0055b3;
+}
+
+/* Messages area */
+.messages-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.message {
+    max-width: 75%;
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.message.user {
+    align-self: flex-end;
+    background: #0055b3;
+    color: #fff;
+    border-bottom-right-radius: 4px;
+}
+
+.message.assistant {
+    align-self: flex-start;
+    background: #fff;
+    border: 1px solid #e0e4ea;
+    border-bottom-left-radius: 4px;
+}
+
+.message.loading {
+    opacity: 0.6;
+    animation: pulse 1.2s ease-in-out infinite;
+}
+
+.message.error {
+    color: #b34000;
+    border-color: #f5c6b0;
+    background: #fef3ed;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 0.3; }
+}
+
+/* Input area */
+.input-container {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    background: #fff;
+    border-top: 1px solid #e0e4ea;
+}
+
+#message-input {
+    flex: 1;
+    resize: vertical;
+    border: 1px solid #d0d7e2;
+    border-radius: 8px;
+    padding: 0.6rem 0.8rem;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.4;
+    outline: none;
+}
+#message-input:focus {
+    border-color: #0055b3;
+}
+
+.input-container .btn-primary {
+    align-self: flex-end;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .landing-buttons {
+        flex-direction: column;
+    }
+    .message {
+        max-width: 90%;
+    }
+}

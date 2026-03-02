@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarify</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Screen 1: Privacy question -->
+    <div id="landing-screen" class="screen active">
+        <div class="landing-container">
+            <h1>Clarify</h1>
+            <p>Before we begin, are you in a private setting where you can speak freely?</p>
+            <div class="landing-buttons">
+                <button id="btn-alone" class="btn btn-primary">Yes, I'm alone</button>
+                <button id="btn-not-alone" class="btn btn-secondary">No, others are present</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Screen 2: Chat interface -->
+    <div id="chat-screen" class="screen">
+        <header class="chat-header">
+            <h1>Clarify</h1>
+            <button id="btn-new-conversation" class="btn btn-small">New conversation</button>
+        </header>
+        <main id="messages" class="messages-container"></main>
+        <footer class="input-container">
+            <textarea id="message-input" placeholder="Describe how you're feeling..." rows="2"></textarea>
+            <button id="btn-send" class="btn btn-primary">Send</button>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

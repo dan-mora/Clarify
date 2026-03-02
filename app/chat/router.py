@@ -4,6 +4,7 @@ from typing import Optional
 from fastapi import APIRouter
 from pydantic import BaseModel
 from app.config import client
+from app.rag.store import query as rag_query
 
 router = APIRouter(prefix="/chat", tags=["chat"])
 
@@ -39,6 +40,10 @@ async def chat(request: ChatRequest):
         {"role": "user", "content": request.message}
     )
 
+    # Retrieve relevant context from the RAG store
+    relevant_chunks = rag_query(request.message)
+    context = "\n\n---\n\n".join(c['text'] for c in relevant_chunks)
+
     # Choose system prompt based on privacy mode (placeholder — refine later)
     if conversations[convo_id]["private_session"]:
         system_prompt = (
@@ -50,6 +55,13 @@ async def chat(request: ChatRequest):
         system_prompt = (
             "You are a helpful medical communication assistant. "
             "Help patients articulate their symptoms and feelings clearly."
+        )
+
+    if context:
+        system_prompt += (
+            "\n\nUse the following reference material to inform your responses. "
+            "Do not quote it directly — use it to give accurate, helpful guidance.\n\n"
+            + context
         )
 
     response = client.messages.create(

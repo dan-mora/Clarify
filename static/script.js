@@ -32,7 +32,7 @@ async function sendMessage() {
     input.value = "";
 
     appendMessage("user", text);
-    const loadingEl = appendMessage("assistant", "...", true);
+    const loadingEl = appendMessage("assistant", "", true);
 
     try {
         const body = { message: text };
@@ -42,7 +42,7 @@ async function sendMessage() {
             body.private_session = privateSession;
         }
 
-        const res = await fetch("/chat/", {
+        const res = await fetch("/chat/stream", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(body),
@@ -50,14 +50,40 @@ async function sendMessage() {
 
         if (!res.ok) throw new Error("Request failed");
 
-        const data = await res.json();
-        conversationId = data.conversation_id;
-
-        loadingEl.textContent = data.reply;
         loadingEl.classList.remove("loading");
+
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = "";
+
+        while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+
+            buffer += decoder.decode(value, { stream: true });
+
+            // Parse complete SSE messages out of the buffer
+            const parts = buffer.split("\n\n");
+            buffer = parts.pop(); // keep the incomplete trailing chunk
+
+            for (const part of parts) {
+                const eventMatch = part.match(/^event: (.+)$/m);
+                const dataMatch = part.match(/^data: (.+)$/m);
+                if (!eventMatch || !dataMatch) continue;
+
+                const eventType = eventMatch[1];
+                const data = JSON.parse(dataMatch[1]);
+
+                if (eventType === "conversation_id") {
+                    conversationId = data.conversation_id;
+                } else if (eventType === "text_delta") {
+                    loadingEl.textContent += data.text;
+                    scrollToBottom();
+                }
+            }
+        }
     } catch {
         loadingEl.textContent = "Sorry, something went wrong. Please try again.";
-        loadingEl.classList.remove("loading");
         loadingEl.classList.add("error");
     } finally {
         isLoading = false;

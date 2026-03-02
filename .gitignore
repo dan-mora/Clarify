@@ -9,4 +9,4 @@ __pycache__/
 *.pyc
 
 # ChromaDB data files (vector DB storage)
-.chroma/
+data/

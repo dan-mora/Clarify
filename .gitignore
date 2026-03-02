@@ -1,0 +1,12 @@
+# Environment variables (contains your real API key)
+.env
+
+# Python virtual environment
+venv/
+
+# Python bytecode cache (auto-generated, not needed in git)
+__pycache__/
+*.pyc
+
+# ChromaDB data files (vector DB storage)
+.chroma/

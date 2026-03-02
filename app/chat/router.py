@@ -44,6 +44,10 @@ async def chat(request: ChatRequest):
     relevant_chunks = rag_query(request.message)
     context = "\n\n---\n\n".join(c['text'] for c in relevant_chunks)
 
+    print(f"\n[RAG] Query: {request.message[:80]}")
+    for c in relevant_chunks:
+        print(f"  → {c['metadata']['section_header']} ({c['metadata']['document_topic']})")
+
     # Choose system prompt based on privacy mode (placeholder — refine later)
     if conversations[convo_id]["private_session"]:
         system_prompt = (

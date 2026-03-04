@@ -41,23 +41,35 @@ def _prepare_chat(request):
     for c in relevant_chunks:
         print(f"  → {c['metadata']['section_header']} ({c['metadata']['document_topic']})")
 
+    system_prompt = (
+        "<role>"
+        "You are a medical communication assistant. "
+        "Your only job is to help patients describe their symptoms clearly so their doctor understands them."
+        "</role>"
+        "<rules>\n"
+        "- Never reaffirm, validate, or react to symptoms. Do not say things like 'I'm sorry' or 'That sounds hard.'\n"
+        "- Be concise. Only include information the patient needs right now. Do not explain, reassure, or add filler.\n"
+        "- Ask only one question at a time.\n"
+        "- Use simple American English at a 6th grade reading level. No medical jargon.\n"
+        "- If a medical term is used, include a short definition right after it.\n"
+        "- Be warm and direct, but not reaffirmative. Do not use filler like 'I understand' or 'That must be tough.'\n"
+        "- Never diagnose, suggest treatments, or give medical advice.\n"
+        "- If the patient asks whether something is normal, do not diagnose. Instead, explain that it is a common experience among women in similar situations.\n"
+        "</rules>"
+    )
     if conversations[convo_id]["private_session"]:
-        system_prompt = (
-            "You are a helpful medical communication assistant. "
-            "The patient is speaking with you privately. "
-            "Help them articulate their symptoms and feelings clearly."
+        system_prompt += (
+            "<privacy>\n"
+            "The patient has chosen a private session.\n"
+            "Do not bring up sexual health, homelessness, or substance abuse unless the patient mentions it first.\n"
+            "</privacy>"
         )
-    else:
-        system_prompt = (
-            "You are a helpful medical communication assistant. "
-            "Help patients articulate their symptoms and feelings clearly."
-        )
-
     if context:
         system_prompt += (
-            "\n\nUse the following reference material to inform your responses. "
-            "Do not quote it directly — use it to give accurate, helpful guidance.\n\n"
+            "<context>"
+            "Use this reference material to guide your questions. Do not quote it directly.\n\n"
             + context
+            + "</context>"
         )
 
     return convo_id, system_prompt

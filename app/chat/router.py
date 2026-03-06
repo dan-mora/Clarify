@@ -4,7 +4,7 @@ from typing import Optional
 
 from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from app.config import async_client, client
 from app.rag.store import query as rag_query
 
@@ -76,7 +76,7 @@ def _prepare_chat(request):
 
 
 class ChatRequest(BaseModel):
-    message: str
+    message: str = Field(..., max_length=1000)
     conversation_id: Optional[str] = None
     private_session: Optional[bool] = None
 

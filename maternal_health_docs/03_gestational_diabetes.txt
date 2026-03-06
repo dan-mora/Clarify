@@ -1,0 +1,49 @@
+Source: MedlinePlus Health Topics, National Library of Medicine (medlineplus.gov)
+License: Public Domain - U.S. Government Work
+Topic: Gestational Diabetes
+
+# Gestational Diabetes
+
+Gestational diabetes is high blood sugar (glucose) that starts or is first diagnosed during pregnancy. Pregnancy hormones can block insulin from doing its job. When this happens, glucose levels may increase in a pregnant woman's blood. In the U.S., about 6% to 9% of pregnant women develop gestational diabetes.
+
+## Risk Factors
+
+You are at greater risk for gestational diabetes if you: are overweight or obese, have a family history of diabetes, had gestational diabetes in a previous pregnancy, have polycystic ovary syndrome (PCOS), previously had a baby who was large (over 9 pounds) at birth, are older (particularly over age 35), or come from a higher risk ethnic group (Latino, African American, Native American, Asian, or Pacific Islander).
+
+## Symptoms
+
+Most of the time, there are no symptoms. The diagnosis is made during a routine prenatal screening. Mild symptoms, such as increased thirst or shakiness, may be present.
+
+## Screening and Diagnosis
+
+Gestational diabetes most often starts halfway through the pregnancy. All pregnant women should receive an oral glucose tolerance test (glucose challenge test) between the 24th and 28th week of pregnancy to look for the condition. Women who have risk factors for gestational diabetes may have this test earlier in the pregnancy. For the test, you will drink a sugary liquid and wait for an hour before your blood sample is taken.
+
+## Effects on Mother
+
+Having diabetes during pregnancy can affect your health: you are more likely to develop preeclampsia, you are more likely to need a cesarean delivery because your baby is more likely to be bigger than average, and changes to your hormones and your body during pregnancy can affect your blood glucose levels.
+
+## Effects on Baby
+
+Having diabetes during pregnancy can also affect your baby: if you have high blood glucose levels at the beginning of your pregnancy, there is a higher risk of birth defects, your baby will be at risk for obesity and type 2 diabetes later in life, your baby is more likely to be born early, your baby may have breathing problems or hypoglycemia (low blood glucose levels) right after birth, and there is a higher risk of miscarriage and stillbirth.
+
+## Management
+
+During your pregnancy, you will work with your provider to manage your blood glucose levels. You may be able to manage them with a healthy diet and regular physical activity. If that's not enough, then you will need to take diabetes medicines. You may need to test your blood sugar at home by pricking your finger and putting a drop of blood on a machine. Your provider will also closely monitor both you and your baby throughout your pregnancy with fetal monitoring to check the size and health of your baby.
+
+## Diet
+
+A healthy diet is key to managing gestational diabetes. General guidelines include: eating a variety of healthy foods, eating moderate amounts of whole grains and starchy vegetables, eating fewer foods that have a lot of sugar (soft drinks, fruit juices, pastries), eating three small- to moderate-sized meals and one or more snacks each day, not skipping meals and snacks, choosing high-fiber whole-grain carbohydrates, and avoiding simple carbohydrates like white rice, candy, and soda.
+
+## After Delivery
+
+Gestational diabetes usually goes away after you have your baby. But you will be at higher risk of developing type 2 diabetes later. You will be tested for it within 4 to 12 weeks after giving birth. Even if your blood glucose levels have returned to normal, you will need to get them tested every 1 to 3 years.
+
+## Clinical Language Guide
+When describing these symptoms or concerns to your provider:
+- "I feel really thirsty all the time" → "I'm experiencing polydipsia (increased thirst)"
+- "I keep having to pee" → "I have polyuria (frequent urination) beyond what's normal for pregnancy"
+- "I feel shaky sometimes" → "I'm experiencing episodes of shakiness that may indicate blood sugar fluctuations"
+- "I'm worried about my sugar levels" → "I'd like to discuss my blood glucose management"
+- "The baby seems really big" → "I'm concerned about fetal macrosomia (large baby size)"
+- "I'm having trouble sticking to the diet" → "I need support with my gestational diabetes meal plan"
+- "My blood sugar numbers are high in the morning" → "I'm seeing elevated fasting blood glucose levels"

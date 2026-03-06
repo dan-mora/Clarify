@@ -1,0 +1,52 @@
+Source: MedlinePlus Health Topics, National Library of Medicine (medlineplus.gov)
+License: Public Domain - U.S. Government Work
+Topic: Preterm Labor and Premature Birth
+
+# Preterm Labor and Premature Birth
+
+Preterm labor is labor that begins before 37 weeks of pregnancy. A baby born before 37 weeks is considered premature. Premature babies may face health problems because their bodies and organs have not finished growing. Each week of pregnancy counts — even babies born just a few weeks early can have more health problems than babies born full term.
+
+## Risk Factors for Preterm Labor
+
+You may be at higher risk if you: have had a premature birth before, are pregnant with twins or multiples, have problems with your uterus or cervix, smoke cigarettes or use drugs, have certain infections (including urinary tract infections and sexually transmitted infections), have chronic health conditions like high blood pressure or diabetes, are under a lot of stress, had a short time between pregnancies (less than 18 months), are younger than 17 or older than 35, or are African American (preterm birth rates are higher in this group for complex reasons including systemic health disparities).
+
+## Signs of Preterm Labor
+
+Know the signs and call your provider right away if you notice:
+- Contractions (tightening of the uterus) every 10 minutes or more often
+- Change in vaginal discharge (watery, mucus-like, or bloody)
+- Pelvic pressure — feeling that your baby is pushing down
+- Low, dull backache that doesn't go away
+- Abdominal cramps with or without diarrhea
+- Fluid leaking from your vagina (could be your water breaking)
+
+## What to Do If You Think You're in Preterm Labor
+
+1. Call your provider or go to the hospital right away
+2. While waiting, lie down tilted to your left side
+3. Drink several glasses of water (dehydration can cause contractions)
+4. Monitor your contractions — note how often they come and how long they last
+5. Do NOT ignore these signs or wait to see if they go away
+
+## Diagnosis
+
+At the hospital, your provider will: check your cervix to see if it is dilating or thinning (effacing), use a fetal monitor to track contractions and your baby's heart rate, possibly do a fetal fibronectin test (a swab test that can help predict preterm birth), and check for infection.
+
+## Treatment
+
+If preterm labor is confirmed, treatment options depend on how far along you are: medicines to slow or stop contractions (tocolytics), corticosteroid injections to help your baby's lungs develop faster (given between 24-34 weeks), magnesium sulfate to help protect your baby's brain, antibiotics if you have an infection, and bed rest or activity restriction.
+
+If your baby needs to be delivered early, your health care team will be prepared to provide specialized care for your premature baby.
+
+## Prevention
+
+While not all preterm births can be prevented, you can reduce your risk by: getting early and regular prenatal care, quitting smoking and avoiding drugs and alcohol, managing chronic health conditions, treating infections promptly, reducing stress, waiting at least 18 months between pregnancies, and asking your provider about progesterone treatment if you have a history of preterm birth.
+
+## Clinical Language Guide
+- "I keep feeling tightening in my belly" → "I'm having uterine contractions" (time them and report frequency)
+- "I feel pressure down low, like the baby is pushing down" → "I'm experiencing pelvic pressure with a bearing-down sensation"
+- "My back won't stop hurting" → "I have persistent low back pain that doesn't improve with position changes"
+- "My discharge changed — it's more watery now" → "I've noticed a change in vaginal discharge from normal to watery/mucousy"
+- "I think my water broke" → "I'm experiencing a gush or steady leak of fluid from my vagina — possible rupture of membranes"
+- "I'm having cramps like period cramps" → "I'm experiencing rhythmic abdominal cramping at [X] weeks"
+- "I'm only [X] weeks, is it too early?" → "I'm concerned about preterm labor symptoms at [X] weeks gestation"

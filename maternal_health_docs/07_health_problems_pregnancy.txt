@@ -1,0 +1,52 @@
+Source: MedlinePlus Health Topics, National Library of Medicine (medlineplus.gov)
+License: Public Domain - U.S. Government Work
+Topic: Health Problems in Pregnancy
+
+# Health Problems in Pregnancy
+
+A health problem in pregnancy is any disease or condition that could affect your health or the health of your fetus. Some health problems may make it more likely that you will have a high-risk pregnancy. But just because you have health problems, it doesn't mean that you or your fetus will have a problem during the pregnancy. Taking care of yourself and getting early and regular prenatal care may help reduce pregnancy risks.
+
+## Common Pregnancy Complications
+
+### Ectopic Pregnancy
+An ectopic pregnancy is when a fertilized egg implants outside the uterus, most often in a fallopian tube. This is a medical emergency. Symptoms include sharp pain in the abdomen, pelvis, or shoulder; vaginal bleeding; and dizziness or fainting. An ectopic pregnancy cannot continue and needs treatment right away.
+
+### Miscarriage
+A miscarriage is the loss of a pregnancy before 20 weeks. Warning signs include vaginal bleeding, cramping, and tissue passing from the vagina. Most miscarriages cannot be prevented. They often happen because the fetus is not developing normally.
+
+### Preterm Labor
+Preterm labor is labor that begins before 37 weeks of pregnancy. Signs include regular contractions, change in vaginal discharge, pelvic pressure, low backache, and cramping. Preterm babies may face health problems because their organs have not fully developed.
+
+### Placenta Previa
+Placenta previa is when the placenta covers part or all of the cervix. This can cause severe bleeding during pregnancy or delivery. The main symptom is painless vaginal bleeding in the second half of pregnancy.
+
+### Placental Abruption
+Placental abruption is when the placenta separates from the wall of the uterus before delivery. This is serious and can cause heavy bleeding. Symptoms include vaginal bleeding, abdominal pain, back pain, uterine tenderness, and rapid contractions.
+
+### Gestational Diabetes
+High blood sugar that develops during pregnancy. Screening is done between weeks 24-28. See separate document for details.
+
+### Preeclampsia
+High blood pressure with signs of organ damage, developing after 20 weeks. See separate document for details.
+
+### Infections During Pregnancy
+Certain infections can be harmful during pregnancy. These include urinary tract infections, sexually transmitted infections (STIs), Group B streptococcus, and other infections like toxoplasmosis and cytomegalovirus. It is important to tell your provider about any symptoms of infection right away.
+
+### Anemia in Pregnancy
+Anemia is when you do not have enough healthy red blood cells. During pregnancy, you need more iron. Symptoms include feeling tired, weak, dizzy, or short of breath. Your provider will check your iron levels during prenatal care.
+
+## Conditions That Existed Before Pregnancy
+
+If you had any of these conditions before pregnancy, they may need special management during pregnancy: diabetes, high blood pressure, asthma, autoimmune disorders (like lupus), kidney disease, thyroid disease, heart disease, or seizure disorders.
+
+## Reducing Your Risk
+
+You may be able to lower your risk by: reaching a healthy weight before getting pregnant, not smoking, managing any health conditions you have, getting early and regular prenatal care, and telling your provider about all medications you take.
+
+## Clinical Language Guide
+- "Something doesn't feel right" → "I have symptoms I'd like to discuss with you" (then describe specific symptoms)
+- "I'm having cramps and bleeding" → "I'm experiencing abdominal cramping with vaginal bleeding at [X] weeks"
+- "I had pain on one side and then felt dizzy" → "I have unilateral pelvic pain with lightheadedness" (possible ectopic - seek emergency care)
+- "I'm bleeding but it doesn't hurt" → "I have painless vaginal bleeding in my second/third trimester" (possible placenta previa)
+- "I've been really tired and weak" → "I'm experiencing fatigue and weakness that may indicate anemia"
+- "I have a condition I was diagnosed with before pregnancy" → "I have a pre-existing condition ([name]) that may need management adjustment during pregnancy"

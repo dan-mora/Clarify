@@ -1,0 +1,53 @@
+Source: MedlinePlus Health Topics, National Library of Medicine (medlineplus.gov)
+License: Public Domain - U.S. Government Work
+Topic: High-Risk Pregnancy and Substance Use
+
+# High-Risk Pregnancy
+
+A high-risk pregnancy is one in which you, your baby, or both are at higher risk for health problems than in a typical pregnancy. But having a high-risk pregnancy does not mean you will have problems — it means your provider will monitor you more closely.
+
+## What Makes a Pregnancy High-Risk
+
+Age: Being younger than 17 or older than 35.
+Medical conditions: Having diabetes, high blood pressure, heart disease, kidney disease, autoimmune disorders, thyroid disease, or HIV/AIDS before pregnancy.
+Pregnancy-related conditions: Preeclampsia, gestational diabetes, placenta problems, cervical insufficiency.
+Lifestyle factors: Smoking, alcohol use, drug use.
+Pregnancy history: Previous preterm birth, pregnancy loss, C-section, or complications.
+Multiple pregnancy: Carrying twins, triplets, or more.
+Obesity: Having a BMI of 30 or higher before pregnancy.
+
+## What High-Risk Means for Your Care
+
+You may need: more frequent prenatal visits, additional testing and monitoring (more ultrasounds, non-stress tests, biophysical profiles), referral to a maternal-fetal medicine specialist (perinatologist), a detailed birth plan in case of complications, and delivery at a hospital with a higher level of neonatal care.
+
+# Substance Use and Pregnancy
+
+## Tobacco/Smoking
+Smoking during pregnancy increases the risk of: preterm birth, low birth weight, placental problems (placenta previa, placental abruption), sudden infant death syndrome (SIDS), and birth defects. Quitting at any point during pregnancy improves outcomes. Ask your provider about quit programs.
+
+## Alcohol
+There is no known safe amount of alcohol during pregnancy. Alcohol can cause: fetal alcohol spectrum disorders (FASDs), birth defects, learning and behavioral problems, and miscarriage or stillbirth. If you are pregnant or planning to become pregnant, do not drink alcohol.
+
+## Marijuana
+Marijuana use during pregnancy may affect your baby's brain development and can increase the risk of low birth weight. It is not safe during pregnancy or breastfeeding.
+
+## Opioids
+Opioid use during pregnancy (including prescription painkillers and heroin) can cause: neonatal abstinence syndrome (NAS — the baby goes through withdrawal after birth), preterm birth, birth defects, and stillbirth. If you are dependent on opioids, do NOT stop suddenly — this can be dangerous. Talk to your provider about medication-assisted treatment (MAT), which is safer than stopping abruptly.
+
+## Other Drugs
+Cocaine, methamphetamine, and other drugs can cause: placental abruption, preterm birth, low birth weight, birth defects, and developmental problems.
+
+## Getting Help
+
+If you are using any substances during pregnancy, talk to your provider honestly. They are not there to judge you — they are there to help you have the healthiest pregnancy possible. Treatment options include: counseling, support groups, medication-assisted treatment, residential treatment programs, and outpatient programs designed for pregnant women.
+
+SAMHSA National Helpline: 1-800-662-4357 (free, confidential, available 24/7 in English and Spanish). Provides referrals to local treatment facilities, support groups, and community organizations.
+
+## Clinical Language Guide
+- "I used to smoke but I'm trying to quit" → "I have a history of tobacco use and am interested in smoking cessation support during pregnancy"
+- "I had a few drinks before I knew I was pregnant" → "I had alcohol exposure in early pregnancy before confirmation — should I be concerned?"
+- "I use marijuana for anxiety" → "I've been using cannabis and would like to discuss safe alternatives for anxiety management during pregnancy"
+- "I'm on pain medication" → "I'm currently taking [medication name] and need to discuss its safety during pregnancy"
+- "I can't stop using [substance]" → "I'm dealing with substance dependence and need help with treatment options safe for pregnancy"
+- "I had problems in my last pregnancy" → "I have a history of [complication] in a previous pregnancy and would like to discuss risk reduction for this pregnancy"
+- "I'm over 35, is that a problem?" → "I'd like to discuss age-related considerations and any additional monitoring for my pregnancy"
